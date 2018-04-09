@@ -1,0 +1,87 @@
+.about {
+  height: 80vh;
+  width: 100vw;
+  background-image: url("./images/Main.jpg");
+  background-size: cover;
+  margin: 10vh 0;
+  position: relative;
+  left: 0;
+}
+
+.content {
+  text-align: justify;
+  position: absolute;
+  left: 6em;
+  top: 4em;
+}
+
+.content-title {
+  color: white;
+  letter-spacing: .1em;
+}
+
+.content-text {
+  position: relative;
+  left: .4em;
+  color: white;
+  letter-spacing: .1em;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+.content-divider {
+  border-width: .3em;
+  margin-top: 12px;
+  position: relative;
+  left: -.2em;
+}
+
+.aligned-text {
+  position: relative;
+  left: 4.8em;
+}
+
+.main-photo {
+  width: inherit;
+}
+
+.icon-holder {
+  text-align: center;
+}
+
+.icon {
+  width: 3em;
+}
+
+@media (max-width: 768px) {
+    .about {
+      background-position: -10em;
+      background-image: url("./images/Main-mobile.jpg");
+    }
+}
+
+@media (max-width: 425px) {
+    .about {
+      background-position: -33em;
+    }
+    .content {
+      left: 13em;
+      top: 23em;
+    }
+}
+
+@media (max-width: 375px) {
+    .about {
+      background-position: -35em;
+    }
+    .content {
+      left: 10em;
+      top: 24em;
+    }
+}
+
+@media (max-width: 320px) {
+    .content {
+      left: 6em;
+    }
+}

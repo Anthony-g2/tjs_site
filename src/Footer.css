@@ -1,0 +1,12 @@
+.footer {
+  position: fixed;
+  bottom: 1.7em;
+  left: 2em;
+}
+
+.footer-text {
+  color: lightgrey;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-family: 'Raleway', sans-serif;
+}

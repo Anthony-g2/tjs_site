@@ -1,0 +1,29 @@
+.App {
+  width: 100%;
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+/*
+NAVBAR/HEADERS
+font-family: 'Fjalla One', sans-serif;
+
+CONTENT TEXT
+font-family: 'Raleway', sans-serif;
+ */
