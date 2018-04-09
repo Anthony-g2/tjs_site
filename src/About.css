@@ -118,6 +118,8 @@
 @media (max-height: 460px) {
   body {
     background-color: black;
+    max-height: 460px;
+    overflow: hidden;
   }
   .about {
     background-image: unset;
@@ -128,6 +130,10 @@
   }
 }
 @media (max-height: 372px) {
+  body {
+    max-height: 372px;
+    overflow: hidden;
+  }
   .content {
     top: 0em;
   }
