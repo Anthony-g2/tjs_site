@@ -1,10 +1,11 @@
 .footer {
-  position: fixed;
+  position: absolute;
   bottom: 1.7em;
   left: 2em;
 }
 
 .footer-text {
+  position: relative;
   color: lightgrey;
   text-transform: uppercase;
   letter-spacing: .1em;

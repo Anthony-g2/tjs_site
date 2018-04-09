@@ -55,7 +55,7 @@
 
 @media (max-width: 768px) {
     .about {
-      background-position: -10em;
+      background-position: -32em;
       background-image: url("./images/Main-mobile.jpg");
     }
 }
@@ -65,18 +65,18 @@
       background-position: -33em;
     }
     .content {
-      left: 13em;
+      left: 10em;
       top: 23em;
     }
 }
 
 @media (max-width: 375px) {
     .about {
-      background-position: -35em;
+      background-position: -32em;
     }
     .content {
       left: 10em;
-      top: 24em;
+      top: 19em;
     }
 }
 
@@ -93,48 +93,38 @@
     }
 }
 
-@media (max-height: 629px) {
+@media (max-height: 668px) {
   .about {
     background-position: -30em;
   }
   .content {
-    left: 13em;
-    top: 16em;
+    left: 10em;
+    top: 20em;
   }
 }
 
-@media (max-height: 560px) {
-  .about {
-    background-position: -26em;
-  }
-  .content {
-    left: 10em;
-    top: 14em;
-  }
-  .footer {
-    bottom: 0.7em !important;
-  }
-}
-@media (max-height: 460px) {
+@media (max-height: 569px) {
   body {
     background-color: black;
     max-height: 460px;
-    overflow: hidden;
   }
   .about {
     background-image: unset;
-  }
-  .content {
-    left: 4em;
-    top: 3em;
-  }
-}
-@media (max-height: 372px) {
-  body {
-    max-height: 372px;
+    position: unset;
     overflow: hidden;
   }
   .content {
-    top: 0em;
+    left: 4em;
+    top: 7em;
+  }
+}
+
+@media (min-height: 810px) and (max-width: 375px) {
+  .about {
+    background-position: -39em;
+  }
+  .content {
+    left: 9em;
+    top: 20em;
   }
 }
