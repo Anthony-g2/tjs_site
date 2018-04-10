@@ -29,6 +29,15 @@
   text-transform: uppercase;
 }
 
+.content-brand {
+  position: relative;
+  left: 2em;
+  color: white;
+  letter-spacing: .1em;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
 .content-divider {
   border-width: .3em;
   margin-top: 12px;
@@ -65,8 +74,8 @@
       background-position: -33em;
     }
     .content {
-      left: 10em;
-      top: 23em;
+      left: 12.5em;
+      top: 22em;
     }
 }
 
@@ -93,13 +102,16 @@
     }
 }
 
-@media (max-height: 668px) {
+@media (max-height: 668px) and (min-height: 660px) {
   .about {
     background-position: -30em;
   }
   .content {
     left: 10em;
     top: 20em;
+  }
+  .content-brand {
+    display: none;
   }
 }
 
@@ -125,6 +137,6 @@
   }
   .content {
     left: 9em;
-    top: 20em;
+    top: 25em;
   }
 }

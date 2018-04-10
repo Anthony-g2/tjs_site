@@ -20,9 +20,10 @@ class About extends Component {
             <span className="aligned-text">Director.<br /></span>
           </p>
           <hr className="content-divider"/>
+          <p className="content-brand">Tej Imaginations</p>
           <Row className="icon-holder">
             <Col xs={4}>
-              <a href="https://www.instagram.com/tejmodels/">
+              <a href="https://www.instagram.com/tej_imaginations/">
                 <img src={Insta} alt="instagram" title="Instagram" className="icon" />
               </a>
             </Col>
