@@ -12,7 +12,7 @@ class About extends Component {
       <div className="about">
         <div className="content">
           <hr className="content-divider"/>
-          <h1 className="content-title">Terrel Page</h1>
+          <h1 className="content-title">Terrell Page</h1>
           <p className= "content-text">
             I am an Actor.<br />
             <span className="aligned-text">Model.<br /></span>
