@@ -6,4 +6,4 @@ Created with React and Bootstrap-React.
 
 Personal site servinga as a digital billboard created with React and styled with Bootstrap featuring a mobile responsive design.
 
-Visit Site [Here] (https://anthonygreenwell.herokuapp.com).
+Visit Site [Here](https://terrelpage.herokuapp.com/).
